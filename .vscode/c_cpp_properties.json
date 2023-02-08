@@ -2,7 +2,11 @@
     "configurations": [
         {
             "name": "Linux",
-            "includePath": [],
+            "includePath": [
+                "${workspaceFolder}/third_party/llvm-project/llvm/include/",
+                "${workspaceFolder}/third_party/llvm-project/mlir/include/",
+                "${workspaceFolder}/include"
+            ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu17",
