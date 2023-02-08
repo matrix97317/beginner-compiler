@@ -11,6 +11,8 @@ This repository is used to study compiler technology based on MLIR. Mainly conce
 ### Build Project
 STEP 1. Build Third Party Package
 
+Refer to /third_party/README.md
+
 STEP 2. Build Beginner Compiler Project
 
 ``` bash
